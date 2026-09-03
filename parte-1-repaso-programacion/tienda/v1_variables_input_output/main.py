@@ -16,6 +16,7 @@
     B-7. El descuento puede ser negativo
     B-8. El descuento puede ser mayor al precio
     B-9. El programa solamente sirve para un solo producto, no para varios productos
+    B-10. Cuando hay un error, el programa se cierra intempestivamente. Debería volver a preguntar el valor que se ingresó mal y dejar continuar al usuario ingresando datos
 '''
 
 nombre_del_producto = input("Ingrese el nombre del producto: ") # variable e input

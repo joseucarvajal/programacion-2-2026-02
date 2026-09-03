@@ -32,3 +32,38 @@ Preguntar para obtener los datos. Por defecto todos los input(...) producen stri
 
 ## 2.3 Output: Salidas
 Para mostrarle (imprimir) datos o información a los usuarios
+
+## 2.4 Decisiones:
+El programa debe tomar *decisiones* basado en los datos (es decir *las variables*) y actuar de acuerdo a estas decisiones.
+En un sentido práctico una decisión es plantearse una pregunta, dar una respuesta (con datos -variables-) y actuar en consecuencia. Para esto utilizamos *if*
+```
+if (condición)
+    acción 1
+    acción 2
+    acción 3
+    ...
+else
+    acción a
+    acción b
+    acción c
+    ...
+```
+
+Ejemplo:
+```
+if (yo estudio)
+    voy a desarrollar nuevas habilidades para el ámbito profesional
+    una institución educativa va a avalar mis estudios
+    Tengo más oportunidades de concursar para un proyecto con requisitos legales
+    ...
+else
+    Ninguna institución educativa va a avalar mis conocimientos
+    Va ser más difícil aspirar a empleos o proyectos que requieran educación formal certificada y avalada por una institución de educación superior
+    ...
+```
+
+Si condición es TRUE (es decir, si se cumple la condición, entonces ejecuto las acciones 1, 2, 3). Si la *condición* NO se cumple, entonces voy a realizar las acciones a, b y c
+
+# Bibliografía / Enlaces de interés:
+- 
+Cómo conectar Visual Studio Code con GitHub paso a paso (Desde cero): https://www.youtube.com/watch?v=lD6L0YqBS5w

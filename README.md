@@ -64,6 +64,61 @@ else
 
 Si condición es TRUE (es decir, si se cumple la condición, entonces ejecuto las acciones 1, 2, 3). Si la *condición* NO se cumple, entonces voy a realizar las acciones a, b y c
 
+
+## 2.5. Repeticiones / Ciclos / Iteraciones / Loop
+Muchos procesos son repetivos, cada repetición se conoce como: iteración. Ejemplo:
+Estudiar una tecnología de 5 semestres:
+Semestre 0: Una repetición - una iteración
+Semestre 1: Una repetición - una iteración
+Semestre 2: Una repetición - una iteración
+Semestre 3: Una repetición - una iteración
+Semestre 4: Una repetición - una iteración
+
+Hay dos tipos de repeticiones:
+### 1. La repetición que YO SÉ cuando va a terminar
+Ejemplo 1:
+```
+    Estudiar una tecnología PARA (for) 5 semestres:
+        Semestre 0: Una repetición - una iteración
+        Semestre 1: Una repetición - una iteración
+        Semestre 2: Una repetición - una iteración
+        Semestre 3: Una repetición - una iteración
+        Semestre 4: Una repetición - una iteración
+```
+
+Ejemplo 2:
+```
+    Voy a hacer una compra PARA (for) 3 productos
+        Producto 0: Una repetición - una iteración
+        Producto 1: Una repetición - una iteración
+        Producto 2: Una repetición - una iteración
+```
+
+### 2. La repetición que YO NO SÉ cuando va a terminar
+Ejemplo 1:
+```
+    Estudiar una tecnología MIENTRAS (while) esté vivo
+        Semestre 0: Una repetición - una iteración
+        Semestre 1: Una repetición - una iteración
+        Semestre 2: Una repetición - una iteración
+        Semestre 3: Una repetición - una iteración
+        Semestre 4: Una repetición - una iteración
+        ...
+        ...
+```
+
+Ejemplo 2:
+```
+    Voy a comprar productos MIENTRAS (while) hayan productos en el carrito: 
+    Voy a comprar productos MIENTRAS (while) tenga plata: 
+    Voy a comprar productos MIENTRAS (while) necesite:
+        Producto 0: Una repetición - una iteración
+        Producto 1: Una repetición - una iteración
+        Producto 2: Una repetición - una iteración
+        ...
+        ...
+```
+
 # Bibliografía / Enlaces de interés:
 - 
 Cómo conectar Visual Studio Code con GitHub paso a paso (Desde cero): https://www.youtube.com/watch?v=lD6L0YqBS5w

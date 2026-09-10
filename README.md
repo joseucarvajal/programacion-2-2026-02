@@ -33,7 +33,7 @@ Preguntar para obtener los datos. Por defecto todos los input(...) producen stri
 ## 2.3 Output: Salidas
 Para mostrarle (imprimir) datos o información a los usuarios
 
-## 2.4 Decisiones:
+## 2.4 Decisiones (Son estructuras de control):
 El programa debe tomar *decisiones* basado en los datos (es decir *las variables*) y actuar de acuerdo a estas decisiones.
 En un sentido práctico una decisión es plantearse una pregunta, dar una respuesta (con datos -variables-) y actuar en consecuencia. Para esto utilizamos *if*
 ```
@@ -65,7 +65,7 @@ else
 Si condición es TRUE (es decir, si se cumple la condición, entonces ejecuto las acciones 1, 2, 3). Si la *condición* NO se cumple, entonces voy a realizar las acciones a, b y c
 
 
-## 2.5. Repeticiones / Ciclos / Iteraciones / Loop
+## 2.5. Repeticiones / Ciclos / Iteraciones / Loop (Son estructuras de control)
 Muchos procesos son repetivos, cada repetición se conoce como: iteración. Ejemplo:
 Estudiar una tecnología de 5 semestres:
 Semestre 0: Una repetición - una iteración
@@ -118,6 +118,11 @@ Ejemplo 2:
         ...
         ...
 ```
+
+## 2.6. Error handling / Manejo de errores / Excepciones (Son estructuras de control)
+Son estructuras de control que permiten capturar escenarios inesperados (situaciones imprevistas).
+Las excepciones nos permiten controlar errores no esperados.
+
 
 # Bibliografía / Enlaces de interés:
 - 

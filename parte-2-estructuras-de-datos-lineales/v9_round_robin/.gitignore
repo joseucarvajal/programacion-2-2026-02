@@ -1,0 +1,25 @@
+# Base de datos local y sus archivos auxiliares de WAL.
+var/
+*.db
+*.db-wal
+*.db-shm
+
+# Entorno
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Node (el frontend vive en frontend/)
+node_modules/
+.vite/
+npm-debug.log*
+
+.DS_Store

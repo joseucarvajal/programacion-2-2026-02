@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------- macOS
+# Archivos que el Finder crea y ensucia los diffs.
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Herramientas de prueba y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Empaquetado
+build/
+dist/
+*.whl
+
+# ---------------------------------------------------------------- Node
+node_modules/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ---------------------------------------------------------------- Datos locales
+# La base de datos SQLite del proyecto: son datos de la máquina, no código.
+var/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# ---------------------------------------------------------------- Entorno
+# Nunca subir credenciales ni configuración local.
+.env
+.env.*
+!.env.example
+
+# ---------------------------------------------------------------- Editores
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,1 @@
+"""Capa de infraestructura: adaptadores externos (persistencia, configuracion)."""
